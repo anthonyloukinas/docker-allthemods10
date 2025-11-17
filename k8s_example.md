@@ -10,6 +10,7 @@ Remeber to either set nodeports manually or go get the assigment from your servi
 
 ## Example Manifest
 
+```yml
 apiVersion: v1
 kind: Service
 metadata:
@@ -112,3 +113,4 @@ spec:
       resources:
         requests:
           storage: 50Gi
+```
